@@ -1,0 +1,111 @@
+/* Dashboard Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    margin: 0;
+    padding: 20px;
+    color: #fff;
+}
+
+.dashboard-welcome {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: orange;
+}
+
+.dashboard-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.dashboard-table th, .dashboard-table td {
+    border: 1px solid #333;
+    padding: 20px;
+    text-align: left;
+}
+
+.dashboard-table th {
+    background-color: #555;
+}
+
+.dashboard-table td {
+    background-color: #444;
+}
+
+.dashboard-actions a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Edit/New */
+.edit-form, .report-form {
+    max-width: 600px;
+    margin: auto;
+    background-color: #444;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: orange;
+}
+
+.form-control {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: #555;
+    color: #fff;
+}
+
+.btn-primary, .btn-secondary, .btn-danger {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.btn-group {
+    margin-top: 20px;
+}
+
+.btn-group .btn {
+    margin-right: 10px;
+}
+
+.sighting-card {
+    background-color: #444;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #333;
+}
+
+.sighting-card h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: orange;
+}
+
+.sighting-info {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.sighting-info strong {
+    margin-right: 10px;
+}
+
+img {
+    max-width: 200px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+}
+
+#img_url {
+    margin-bottom: 10px;
+}
